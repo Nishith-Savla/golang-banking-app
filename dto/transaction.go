@@ -20,12 +20,15 @@ func (r TransactionRequest) IsWithdrawal() bool {
 	return strings.ToLower(r.Type) == WITHDRAWAL
 }
 
+func (r TransactionRequest) IsDeposit() bool {
+	return strings.ToLower(r.Type) == DEPOSIT
+}
+
 func (r TransactionRequest) Validate() *errs.AppError {
 	if r.Amount < 1 {
 		return errs.NewValidationError("To perform a new transaction, amount should be greater than ₹0.")
 	}
-	transactionType := strings.ToLower(r.Type)
-	if transactionType != WITHDRAWAL && transactionType != DEPOSIT {
+	if !r.IsWithdrawal() && !r.IsDeposit() {
 		return errs.NewValidationError("Transaction type should be withdrawal or deposit")
 	}
 
