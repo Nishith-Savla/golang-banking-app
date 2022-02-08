@@ -24,7 +24,7 @@ func (ch *CustomerHandlers) getAllCustomers(w http.ResponseWriter, r *http.Reque
 	customers, err := ch.service.GetAllCustomers(status)
 
 	if err != nil {
-		writeJSONResponse(w, http.StatusInternalServerError, err.AsMessage())
+		writeJSONResponse(w, err.Code, err.AsMessage())
 		return
 	}
 
