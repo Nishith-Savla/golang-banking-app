@@ -27,7 +27,7 @@ func setup(t *testing.T) func() {
 
 	return func() {
 		router = nil
-		defer ctrl.Finish()
+		ctrl.Finish()
 	}
 }
 
