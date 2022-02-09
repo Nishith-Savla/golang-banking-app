@@ -2,8 +2,8 @@ package domain
 
 import (
 	"database/sql"
-	"github.com/Nishith-Savla/golang-banking-app/errs"
-	"github.com/Nishith-Savla/golang-banking-app/logger"
+	"github.com/Nishith-Savla/golang-banking-lib/errs"
+	"github.com/Nishith-Savla/golang-banking-lib/logger"
 	"github.com/jmoiron/sqlx"
 	"strconv"
 	"strings"

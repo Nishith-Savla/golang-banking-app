@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	domain "github.com/Nishith-Savla/golang-banking-app/domain"
-	errs "github.com/Nishith-Savla/golang-banking-app/errs"
+	errs "github.com/Nishith-Savla/golang-banking-lib/errs"
 	gomock "github.com/golang/mock/gomock"
 )
 

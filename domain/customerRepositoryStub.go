@@ -1,6 +1,6 @@
 package domain
 
-import "github.com/Nishith-Savla/golang-banking-app/errs"
+import "github.com/Nishith-Savla/golang-banking-lib/errs"
 
 type CustomerRepositoryStub struct {
 	customers []Customer

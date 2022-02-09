@@ -3,7 +3,7 @@ package domain
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Nishith-Savla/golang-banking-app/logger"
+	"github.com/Nishith-Savla/golang-banking-lib/logger"
 	"net/http"
 	"net/url"
 	"os"

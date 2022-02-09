@@ -3,8 +3,8 @@ package service
 import (
 	realdomain "github.com/Nishith-Savla/golang-banking-app/domain"
 	"github.com/Nishith-Savla/golang-banking-app/dto"
-	"github.com/Nishith-Savla/golang-banking-app/errs"
 	"github.com/Nishith-Savla/golang-banking-app/mocks/domain"
+	"github.com/Nishith-Savla/golang-banking-lib/errs"
 	"github.com/golang/mock/gomock"
 	"testing"
 	"time"

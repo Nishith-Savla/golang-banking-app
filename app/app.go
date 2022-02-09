@@ -3,8 +3,8 @@ package app
 import (
 	"fmt"
 	"github.com/Nishith-Savla/golang-banking-app/domain"
-	"github.com/Nishith-Savla/golang-banking-app/logger"
 	"github.com/Nishith-Savla/golang-banking-app/service"
+	"github.com/Nishith-Savla/golang-banking-lib/logger"
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
 	"net/http"

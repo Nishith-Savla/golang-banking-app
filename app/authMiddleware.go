@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/Nishith-Savla/golang-banking-app/domain"
-	"github.com/Nishith-Savla/golang-banking-app/errs"
+	"github.com/Nishith-Savla/golang-banking-lib/errs"
 	"github.com/gorilla/mux"
 	"net/http"
 	"strings"

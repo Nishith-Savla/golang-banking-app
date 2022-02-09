@@ -2,8 +2,8 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/Nishith-Savla/golang-banking-app/logger"
 	"github.com/Nishith-Savla/golang-banking-app/service"
+	"github.com/Nishith-Savla/golang-banking-lib/logger"
 	"github.com/gorilla/mux"
 	"net/http"
 )

@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"github.com/Nishith-Savla/golang-banking-app/errs"
+	"github.com/Nishith-Savla/golang-banking-lib/errs"
 	"strings"
 )
 

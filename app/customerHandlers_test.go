@@ -2,8 +2,8 @@ package app
 
 import (
 	"github.com/Nishith-Savla/golang-banking-app/dto"
-	"github.com/Nishith-Savla/golang-banking-app/errs"
 	"github.com/Nishith-Savla/golang-banking-app/mocks/service"
+	"github.com/Nishith-Savla/golang-banking-lib/errs"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
 	"net/http"
