@@ -42,6 +42,13 @@ The project is structured into several packages:
 - `service`: Contains services that implement business logic.
 - `resources`: Contains resources such as SQL scripts.
 
+Authentication logic is separated into its own repository, and error handling and logging are handled by a shared library.
+
+## Related Repositories
+
+- [Authentication Service](https://github.com/Nishith-Savla/golang-banking-auth): This repository contains the authentication logic for the banking application.
+- [Shared Library](https://github.com/Nishith-Savla/golang-banking-lib): This repository contains shared components such as error handling and logging.
+
 ## Testing
 
 Run the tests with:
